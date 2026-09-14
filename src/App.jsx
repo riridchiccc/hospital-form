@@ -72,7 +72,7 @@ function App() {
       style={{ backgroundImage: `url(${bgImage})` }}>
       <Toaster />
 
-      <div className="w-full max-w-lg bg-[rgba(92,55,108,0.34)] backdrop-blur-xl p-8 rounded-[20px] border border-white/25 shadow-2xl">
+      <div className="w-full max-w-lg bg-[rgba(92,55,108,0.34)] backdrop-blur-3xl p-8 rounded-[20px] border border-white/25 shadow-2xl">
         <div className="flex flex-col items-center mb-6">
           <img src={logo} alt="Logo" className=" h-16" />
           <h1 className="text-white font-bold text-xl mt-2">CEDAR GROUP HOSPITAL</h1>
